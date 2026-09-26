@@ -1,0 +1,28 @@
+import { L as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/StarBackdrop-V7p73WWU.js
+var import_jsx_runtime = require_jsx_runtime();
+function StarBackdrop() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		"aria-hidden": true,
+		className: "pointer-events-none absolute inset-0 overflow-hidden",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "star-drift absolute -inset-[20%] opacity-80",
+			style: {
+				backgroundImage: `
+            radial-gradient(1px 1px at 12% 18%, rgba(236,238,242,0.7) 50%, transparent 51%),
+            radial-gradient(1px 1px at 28% 72%, rgba(236,238,242,0.45) 50%, transparent 51%),
+            radial-gradient(1.5px 1.5px at 64% 22%, rgba(236,238,242,0.8) 50%, transparent 51%),
+            radial-gradient(1px 1px at 82% 58%, rgba(236,238,242,0.4) 50%, transparent 51%),
+            radial-gradient(1px 1px at 8% 88%, rgba(236,238,242,0.55) 50%, transparent 51%),
+            radial-gradient(1.5px 1.5px at 48% 48%, rgba(236,238,242,0.35) 50%, transparent 51%),
+            radial-gradient(1px 1px at 91% 12%, rgba(236,238,242,0.65) 50%, transparent 51%),
+            radial-gradient(1px 1px at 40% 8%, rgba(236,238,242,0.3) 50%, transparent 51%),
+            radial-gradient(1px 1px at 73% 91%, rgba(236,238,242,0.5) 50%, transparent 51%)
+          `,
+				backgroundSize: "640px 640px"
+			}
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,34,48,0.45),transparent_62%)]" })]
+	});
+}
+//#endregion
+export { StarBackdrop as t };
